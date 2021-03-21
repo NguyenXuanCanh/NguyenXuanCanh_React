@@ -9,6 +9,13 @@ import Styles from './Components/Styles/Styles.js';
 import HandleEvent from './Components/HandleEvent/HandleEvent';
 import StateDemo from './Components/StateDemo/StateDemo';
 import BTChonXe from './Components/StateDemo/BTChonXe';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
+import BaiTapLayoutWithMap from './RenderWithMap/BaiTapLayoutMap.js/BaiTapLayoutWithMap';
+import DanhSachSanPhamProps from './Components/Props/DemoProps/DanhSachSanPhamProps';
+import HomeScreen from './Components/MyPersonalWebsite/HomeScreen';
+import Products from './Components/Props/BTProps/Products';
+import BTGioHangRedux from './DemoRedux/BTGioHangRedux';
+import BaiTapLayoutGlasses from './Components/BaiTapLayoutGlasses/BaiTapLayoutGlasses';
 
 function App() {
   return (
@@ -18,7 +25,14 @@ function App() {
       {/* <Styles></Styles> */}
       {/* <HandleEvent></HandleEvent> */}
       {/* <StateDemo></StateDemo> */}
-      <BTChonXe></BTChonXe>
+      {/* <BTChonXe></BTChonXe> */}
+      {/* <RenderWithMap></RenderWithMap> */}
+      {/* <BaiTapLayoutWithMap></BaiTapLayoutWithMap> */}
+      {/* <DanhSachSanPhamProps></DanhSachSanPhamProps> */}
+      {/* <HomeScreen></HomeScreen> */}
+      {/* <Products></Products> */}
+      {/* <BTGioHangRedux></BTGioHangRedux> */}
+      <BaiTapLayoutGlasses></BaiTapLayoutGlasses>
     </div>
   );
 }

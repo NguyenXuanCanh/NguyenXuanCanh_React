@@ -13,7 +13,7 @@ export default class BTGioHangRedux extends Component {
             "cameraSau": "Chính 48 MP & Phụ 8 MP, 5 MP",
             "ram": "4 GB",
             "rom": "64 GB",
-            "giaBan": 5700000,
+            "gia": 5700000,
             "hinhAnh": "./img/vsphone.jpg"
         },
 
@@ -26,7 +26,7 @@ export default class BTGioHangRedux extends Component {
             "cameraSau": "Chính 48 MP & Phụ 8 MP, 5 MP",
             "ram": "4 GB",
             "rom": "64 GB",
-            "giaBan": 7600000,
+            "gia": 7600000,
             "hinhAnh": "./img/meizuphone.jpg"
         },
 
@@ -39,7 +39,7 @@ export default class BTGioHangRedux extends Component {
             "cameraTruoc": "7 MP",
             "ram": "4 GB",
             "rom": "64 GB",
-            "giaBan": 27000000,
+            "gia": 27000000,
             "hinhAnh": "./img/applephone.jpg"
         }
     ];

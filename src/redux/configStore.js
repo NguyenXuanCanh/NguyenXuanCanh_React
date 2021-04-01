@@ -1,22 +1,14 @@
 import { combineReducers, createStore } from 'redux'
-
-const stateDefault = {
-    gioHang: [
-        {
-            "maSP": 2,
-            "tenSP": "Meizu 16Xs",
-            "soLuong": 1,
-            "giaBan": 7600000,
-            "hinhAnh": "./img/meizuphone.jpg"
-        },
-    ]
-}
+import BTGameXucXacReducer from './GameTaiXiu/BTXucXacReducer';
+import { baiTapDatVeReducer } from './Reducers/BaiTapDatVeReducer';
+import { gioHangReducer } from './Reducers/gioHangReducer';
+// import { baiTapDatVeReducer } from './Reducers/BaiTapDatVeReducer';
 
 const rootReducer = combineReducers({
     //Nơi chứa toàn bộ state của ứng dụng
-    gioHangReducer: (state = stateDefault) => {
-        return state;
-    }
+    gioHangReducer: gioHangReducer,
+    baiTapDatVeReducer: baiTapDatVeReducer,
+    BTGameXucXacReducer: BTGameXucXacReducer,
 })
 
 export const store = createStore(rootReducer);

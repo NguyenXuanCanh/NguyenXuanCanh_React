@@ -16,6 +16,9 @@ import HomeScreen from './Components/MyPersonalWebsite/HomeScreen';
 import Products from './Components/Props/BTProps/Products';
 import BTGioHangRedux from './DemoRedux/BTGioHangRedux';
 import BaiTapLayoutGlasses from './Components/BaiTapLayoutGlasses/BaiTapLayoutGlasses';
+import BaiTapDatVe from './redux/BaiTapDatVePhim/BaiTapDatVe';
+import LayoutGameTaiXiu from './redux/GameTaiXiu/LayoutGameTaiXiu';
+import FormReact from './FormReact/FormReact';
 
 function App() {
   return (
@@ -32,7 +35,10 @@ function App() {
       {/* <HomeScreen></HomeScreen> */}
       {/* <Products></Products> */}
       {/* <BTGioHangRedux></BTGioHangRedux> */}
-      <BaiTapLayoutGlasses></BaiTapLayoutGlasses>
+      {/* <BaiTapLayoutGlasses></BaiTapLayoutGlasses> */}
+      {/* <BaiTapDatVe></BaiTapDatVe> */}
+      {/* <LayoutGameTaiXiu></LayoutGameTaiXiu> */}
+      <FormReact></FormReact>
     </div>
   );
 }

@@ -19,6 +19,7 @@ import BaiTapLayoutGlasses from './Components/BaiTapLayoutGlasses/BaiTapLayoutGl
 import BaiTapDatVe from './redux/BaiTapDatVePhim/BaiTapDatVe';
 import LayoutGameTaiXiu from './redux/GameTaiXiu/LayoutGameTaiXiu';
 import FormReact from './FormReact/FormReact';
+import LifeCycle from './LifeCycle/LifeCycle';
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <BaiTapLayoutGlasses></BaiTapLayoutGlasses> */}
       {/* <BaiTapDatVe></BaiTapDatVe> */}
       {/* <LayoutGameTaiXiu></LayoutGameTaiXiu> */}
-      <FormReact></FormReact>
+      {/* <FormReact></FormReact> */}
+      <LifeCycle />
     </div>
   );
 }
